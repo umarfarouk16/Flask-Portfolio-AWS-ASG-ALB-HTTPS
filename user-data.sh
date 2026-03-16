@@ -7,7 +7,7 @@ pwd >> /home/ubuntu/install-logs.txt
 
 # Install Git, Python, and venv
 sudo apt-get update -y
-sudo apt-get install git python3 python3-pip python3-venv python3-full -y
+sudo apt-get install git python3 python3-pip python3-full python3.12-venv -y
 
 # Clone your repo
 cd /home/ubuntu
