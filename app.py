@@ -425,8 +425,8 @@ TEMPLATE = """
     <section id="hero">
       <span class="hero-tag">Available for Opportunities</span>
       <h1>Umar Farouk <span>Muftau</span></h1>
-      <p class="hero-subtitle">Cloud Security &nbsp;&middot;&nbsp; Cloud Engineer &nbsp;&middot;&nbsp; DevOps Engineer</p>
-      <p class="hero-desc">&#128205; New York, USA &nbsp;&mdash;&nbsp; Building secure, scalable AWS infrastructures.</p>
+      <p class="hero-subtitle">Site Reliability Engineer &nbsp;&middot;&nbsp; Cloud Security Engineer &nbsp;&middot;&nbsp; DevOps Engineer &nbsp;&middot;&nbsp; AWS Solutions Architect</p>
+      <p class="hero-desc">&#128205; New York, USA &nbsp;&mdash;&nbsp; Building secure, highly available AWS infrastructures for enterprise and financial-services environments.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">Get In Touch</a>
         <a href="https://github.com/umarfarouk16" target="_blank" rel="noopener" class="btn btn-outline">
@@ -443,7 +443,7 @@ TEMPLATE = """
       <div class="badge-row">
         <span class="badge"><span class="badge-icon">&#128197;</span> 3+ Years Experience</span>
         <span class="badge"><span class="badge-icon">&#9989;</span> 99.9% Availability</span>
-        <span class="badge"><span class="badge-icon">&#127942;</span> 3 Certifications</span>
+        <span class="badge"><span class="badge-icon">&#127942;</span> 4 Certifications</span>
         <span class="badge"><span class="badge-icon">&#128640;</span> 40% Deployment Savings</span>
       </div>
     </section>
@@ -516,10 +516,26 @@ TEMPLATE = """
     <div class="feature-list">
       <div class="feature-item">
         <span class="feature-bullet">&#9679;</span>
+        <span class="feature-icon">&#128187;</span>
+        <div class="feature-body">
+          <div class="feature-title">Infrastructure Engineer</div>
+          <div class="feature-meta">SCSK USA Inc. &nbsp;&middot;&nbsp; New York, NY &nbsp;&middot;&nbsp; Jul 2026 &ndash; Present</div>
+          <ul class="feature-bullets">
+            <li>Administer Windows Server environments, Active Directory, and Microsoft Entra ID for enterprise identity and access management.</li>
+            <li>Manage endpoint security using Microsoft Defender, Cybereason, and Trend Micro Deep Security across the organization.</li>
+            <li>Configure and maintain SolarWinds for network monitoring, alerting, and infrastructure observability.</li>
+            <li>Support virtualization environments using VMware vSphere and Hyper-V for on-premise workloads.</li>
+            <li>Manage Microsoft 365 services including Exchange Online, Intune, and SharePoint for enterprise productivity.</li>
+            <li>Implement and maintain SSO and MFA solutions using Okta and Microsoft Entra ID to enforce zero-trust access policies.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-bullet">&#9679;</span>
         <span class="feature-icon">&#127970;</span>
         <div class="feature-body">
-          <div class="feature-title">AWS Cloud Architect / Cloud Engineer</div>
-          <div class="feature-meta">Barclays Bank &nbsp;&middot;&nbsp; Whippany, NJ &nbsp;&middot;&nbsp; Nov 2022 &ndash; Nov 2025</div>
+          <div class="feature-title">Cloud Engineer</div>
+          <div class="feature-meta">Barclays Bank &nbsp;&middot;&nbsp; Whippany, NJ &nbsp;&middot;&nbsp; Nov 2022 &ndash; Feb 2026</div>
           <ul class="feature-bullets">
             <li>Architected secure multi-tier AWS cloud infrastructures achieving 99.9% system availability.</li>
             <li>Automated infrastructure provisioning with CloudFormation, Terraform &amp; Ansible — reduced deployment effort by 40%.</li>
@@ -527,18 +543,6 @@ TEMPLATE = """
             <li>Migrated on-premise enterprise databases to AWS RDS using Database Migration Service.</li>
             <li>Implemented IAM least-privilege strategies, cross-account role management, and PCI-DSS / HIPAA / GDPR controls.</li>
             <li>Designed centralized logging with Lambda, CloudWatch, and Grafana dashboards.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="feature-item">
-        <span class="feature-bullet">&#9679;</span>
-        <span class="feature-icon">&#128187;</span>
-        <div class="feature-body">
-          <div class="feature-title">Technical Support Intern</div>
-          <div class="feature-meta">DOE Schools &nbsp;&middot;&nbsp; Bronx, NY &nbsp;&middot;&nbsp; Jan 2020 &ndash; Dec 2021</div>
-          <ul class="feature-bullets">
-            <li>Enterprise IT support across hardware, software, and network infrastructure.</li>
-            <li>Maintained asset tracking and improved inventory management for technology lifecycle.</li>
           </ul>
         </div>
       </div>
@@ -584,6 +588,13 @@ TEMPLATE = """
     <!-- CERTIFICATIONS -->
     <div class="section-heading" id="certifications"><h2>Certifications</h2></div>
     <div class="feature-list" style="margin-bottom:60px;">
+      <div class="list-card">
+        <span class="list-icon">&#128309;</span>
+        <div>
+          <div class="list-title">Microsoft Certified: Identity and Access Administrator (SC-300)</div>
+          <div class="list-sub">Microsoft &nbsp;&middot;&nbsp; Aug 2026</div>
+        </div>
+      </div>
       <div class="list-card">
         <span class="list-icon">&#128992;</span>
         <div>
